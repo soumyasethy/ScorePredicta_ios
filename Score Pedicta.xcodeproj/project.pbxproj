@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		272902991FB8549900118841 /* PastPredictionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272902981FB8549900118841 /* PastPredictionTableViewCell.swift */; };
+		2729029D1FB8572600118841 /* PastPredictionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2729029C1FB8572600118841 /* PastPredictionVC.swift */; };
+		2734C5911FAC7AF900E0E80B /* UnpredictedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2734C5901FAC7AF900E0E80B /* UnpredictedVC.swift */; };
+		2734C5931FAC93B500E0E80B /* UnPredictedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2734C5921FAC93B500E0E80B /* UnPredictedTableViewCell.swift */; };
+		2734C5951FAC969F00E0E80B /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2734C5941FAC969F00E0E80B /* Games.swift */; };
+		2734C5971FAE505B00E0E80B /* PredictNowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2734C5961FAE505B00E0E80B /* PredictNowVC.swift */; };
+		27351FD41FB4AB3C0020317D /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27351FD31FB4AB3C0020317D /* SignupVC.swift */; };
+		27403A251F9FB76D00811ED3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27403A241F9FB76D00811ED3 /* AppDelegate.swift */; };
+		27403A2A1F9FB76D00811ED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27403A281F9FB76D00811ED3 /* Main.storyboard */; };
+		27403A2C1F9FB76D00811ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27403A2B1F9FB76D00811ED3 /* Assets.xcassets */; };
+		27403A2F1F9FB76D00811ED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27403A2D1F9FB76D00811ED3 /* LaunchScreen.storyboard */; };
+		27403A3A1F9FB76D00811ED3 /* Score_PedictaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27403A391F9FB76D00811ED3 /* Score_PedictaTests.swift */; };
+		27403A451F9FB76D00811ED3 /* Score_PedictaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27403A441F9FB76D00811ED3 /* Score_PedictaUITests.swift */; };
+		27518BA91FAB573E005B03D3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27518BA81FAB573E005B03D3 /* Constants.swift */; };
+		27518BB31FAB5C04005B03D3 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27518BB21FAB5C04005B03D3 /* AuthService.swift */; };
+		27518BB51FABA131005B03D3 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27518BB41FABA131005B03D3 /* UserDataService.swift */; };
+		275519F91FB60793002360A5 /* ForgetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275519F81FB60793002360A5 /* ForgetVC.swift */; };
+		275519FB1FB62692002360A5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275519FA1FB62692002360A5 /* CardView.swift */; };
+		2777BD921FB6BE970073230D /* ForgetResetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777BD911FB6BE970073230D /* ForgetResetVC.swift */; };
+		277C953D1FB0F08900D445F8 /* UpcomingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277C953C1FB0F08900D445F8 /* UpcomingVC.swift */; };
+		277C953F1FB0F62000D445F8 /* UpcomingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277C953E1FB0F62000D445F8 /* UpcomingTableViewCell.swift */; };
+		279946821FA119AD00C4D57D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279946811FA119AD00C4D57D /* LoginViewController.swift */; };
+		27AB825D1FB214E60059F779 /* ttt.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 27AB825C1FB214E60059F779 /* ttt.mp4 */; };
+		27AB825E1FB2151B0059F779 /* ttt.mp4 in Sources */ = {isa = PBXBuildFile; fileRef = 27AB825C1FB214E60059F779 /* ttt.mp4 */; };
+		485FF5753B9A14B73CB311E2 /* Pods_Score_Pedicta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7DE5E818AD333F580401F7 /* Pods_Score_Pedicta.framework */; };
+		63DE4C692C338DBE2BCD138A /* Pods_Score_PedictaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42A519242FC29AA471BDEB6 /* Pods_Score_PedictaUITests.framework */; };
+		8E536B91FCDB40AF6ECA2860 /* Pods_Score_PedictaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6D63A5A83175C0117144687 /* Pods_Score_PedictaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27403A361F9FB76D00811ED3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27403A191F9FB76D00811ED3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27403A201F9FB76D00811ED3;
+			remoteInfo = "Score Pedicta";
+		};
+		27403A411F9FB76D00811ED3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27403A191F9FB76D00811ED3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27403A201F9FB76D00811ED3;
+			remoteInfo = "Score Pedicta";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19E111924B1383979DD57BF6 /* Pods-Score PedictaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Score PedictaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Score PedictaUITests/Pods-Score PedictaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		272902981FB8549900118841 /* PastPredictionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastPredictionTableViewCell.swift; sourceTree = "<group>"; };
+		2729029C1FB8572600118841 /* PastPredictionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastPredictionVC.swift; sourceTree = "<group>"; };
+		2734C5901FAC7AF900E0E80B /* UnpredictedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnpredictedVC.swift; sourceTree = "<group>"; };
+		2734C5921FAC93B500E0E80B /* UnPredictedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnPredictedTableViewCell.swift; sourceTree = "<group>"; };
+		2734C5941FAC969F00E0E80B /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
+		2734C5961FAE505B00E0E80B /* PredictNowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictNowVC.swift; sourceTree = "<group>"; };
+		27351FD31FB4AB3C0020317D /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		27403A211F9FB76D00811ED3 /* Score Pedicta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Score Pedicta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27403A241F9FB76D00811ED3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27403A291F9FB76D00811ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27403A2B1F9FB76D00811ED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27403A2E1F9FB76D00811ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27403A301F9FB76D00811ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27403A351F9FB76D00811ED3 /* Score PedictaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Score PedictaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27403A391F9FB76D00811ED3 /* Score_PedictaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score_PedictaTests.swift; sourceTree = "<group>"; };
+		27403A3B1F9FB76D00811ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27403A401F9FB76D00811ED3 /* Score PedictaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Score PedictaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27403A441F9FB76D00811ED3 /* Score_PedictaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score_PedictaUITests.swift; sourceTree = "<group>"; };
+		27403A461F9FB76D00811ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27518BA81FAB573E005B03D3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		27518BB21FAB5C04005B03D3 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		27518BB41FABA131005B03D3 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		275519F81FB60793002360A5 /* ForgetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetVC.swift; sourceTree = "<group>"; };
+		275519FA1FB62692002360A5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		2777BD911FB6BE970073230D /* ForgetResetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetResetVC.swift; sourceTree = "<group>"; };
+		277C953C1FB0F08900D445F8 /* UpcomingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingVC.swift; sourceTree = "<group>"; };
+		277C953E1FB0F62000D445F8 /* UpcomingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingTableViewCell.swift; sourceTree = "<group>"; };
+		279946811FA119AD00C4D57D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		27AB825C1FB214E60059F779 /* ttt.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ttt.mp4; sourceTree = "<group>"; };
+		39C5F63B894A396BAB84EF17 /* Pods-Score PedictaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Score PedictaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Score PedictaTests/Pods-Score PedictaTests.release.xcconfig"; sourceTree = "<group>"; };
+		65287E035C12DF6028FDE193 /* Pods-Score PedictaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Score PedictaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Score PedictaUITests/Pods-Score PedictaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A42A519242FC29AA471BDEB6 /* Pods_Score_PedictaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Score_PedictaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2121DB471B4BCE63796F033 /* Pods-Score PedictaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Score PedictaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Score PedictaTests/Pods-Score PedictaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2209B30200A3DED508324F6 /* Pods-Score Pedicta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Score Pedicta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Score Pedicta/Pods-Score Pedicta.debug.xcconfig"; sourceTree = "<group>"; };
+		C0EB85D9684ACE03C9E6E308 /* Pods-Score Pedicta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Score Pedicta.release.xcconfig"; path = "Pods/Target Support Files/Pods-Score Pedicta/Pods-Score Pedicta.release.xcconfig"; sourceTree = "<group>"; };
+		DF7DE5E818AD333F580401F7 /* Pods_Score_Pedicta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Score_Pedicta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D63A5A83175C0117144687 /* Pods_Score_PedictaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Score_PedictaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27403A1E1F9FB76D00811ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485FF5753B9A14B73CB311E2 /* Pods_Score_Pedicta.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27403A321F9FB76D00811ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E536B91FCDB40AF6ECA2860 /* Pods_Score_PedictaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27403A3D1F9FB76D00811ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DE4C692C338DBE2BCD138A /* Pods_Score_PedictaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27403A181F9FB76D00811ED3 = {
+			isa = PBXGroup;
+			children = (
+				27403A231F9FB76D00811ED3 /* Score Pedicta */,
+				27403A381F9FB76D00811ED3 /* Score PedictaTests */,
+				27403A431F9FB76D00811ED3 /* Score PedictaUITests */,
+				27403A221F9FB76D00811ED3 /* Products */,
+				F906743971E4DBDF48354D9A /* Pods */,
+				E0ECEC74751A23C679B8DF20 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27403A221F9FB76D00811ED3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27403A211F9FB76D00811ED3 /* Score Pedicta.app */,
+				27403A351F9FB76D00811ED3 /* Score PedictaTests.xctest */,
+				27403A401F9FB76D00811ED3 /* Score PedictaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27403A231F9FB76D00811ED3 /* Score Pedicta */ = {
+			isa = PBXGroup;
+			children = (
+				27AB825B1FB214D80059F779 /* Res */,
+				27518BB11FAB5B92005B03D3 /* Services */,
+				27518BB01FAB5954005B03D3 /* View */,
+				27518BAE1FAB593B005B03D3 /* Model */,
+				27518BAB1FAB5875005B03D3 /* Controller */,
+				27518BAA1FAB5859005B03D3 /* Utilities */,
+				27403A241F9FB76D00811ED3 /* AppDelegate.swift */,
+				27403A281F9FB76D00811ED3 /* Main.storyboard */,
+				27403A2B1F9FB76D00811ED3 /* Assets.xcassets */,
+				27403A2D1F9FB76D00811ED3 /* LaunchScreen.storyboard */,
+				27403A301F9FB76D00811ED3 /* Info.plist */,
+			);
+			path = "Score Pedicta";
+			sourceTree = "<group>";
+		};
+		27403A381F9FB76D00811ED3 /* Score PedictaTests */ = {
+			isa = PBXGroup;
+			children = (
+				27403A391F9FB76D00811ED3 /* Score_PedictaTests.swift */,
+				27403A3B1F9FB76D00811ED3 /* Info.plist */,
+			);
+			path = "Score PedictaTests";
+			sourceTree = "<group>";
+		};
+		27403A431F9FB76D00811ED3 /* Score PedictaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27403A441F9FB76D00811ED3 /* Score_PedictaUITests.swift */,
+				27403A461F9FB76D00811ED3 /* Info.plist */,
+			);
+			path = "Score PedictaUITests";
+			sourceTree = "<group>";
+		};
+		27518BAA1FAB5859005B03D3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				27518BA81FAB573E005B03D3 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		27518BAB1FAB5875005B03D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				279946811FA119AD00C4D57D /* LoginViewController.swift */,
+				2734C5901FAC7AF900E0E80B /* UnpredictedVC.swift */,
+				2734C5961FAE505B00E0E80B /* PredictNowVC.swift */,
+				277C953C1FB0F08900D445F8 /* UpcomingVC.swift */,
+				27351FD31FB4AB3C0020317D /* SignupVC.swift */,
+				275519F81FB60793002360A5 /* ForgetVC.swift */,
+				2777BD911FB6BE970073230D /* ForgetResetVC.swift */,
+				2729029C1FB8572600118841 /* PastPredictionVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		27518BAE1FAB593B005B03D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2734C5941FAC969F00E0E80B /* Games.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27518BB01FAB5954005B03D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2734C5921FAC93B500E0E80B /* UnPredictedTableViewCell.swift */,
+				277C953E1FB0F62000D445F8 /* UpcomingTableViewCell.swift */,
+				275519FA1FB62692002360A5 /* CardView.swift */,
+				272902981FB8549900118841 /* PastPredictionTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27518BB11FAB5B92005B03D3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				27518BB21FAB5C04005B03D3 /* AuthService.swift */,
+				27518BB41FABA131005B03D3 /* UserDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		27AB825B1FB214D80059F779 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				27AB825C1FB214E60059F779 /* ttt.mp4 */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		E0ECEC74751A23C679B8DF20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF7DE5E818AD333F580401F7 /* Pods_Score_Pedicta.framework */,
+				F6D63A5A83175C0117144687 /* Pods_Score_PedictaTests.framework */,
+				A42A519242FC29AA471BDEB6 /* Pods_Score_PedictaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F906743971E4DBDF48354D9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2209B30200A3DED508324F6 /* Pods-Score Pedicta.debug.xcconfig */,
+				C0EB85D9684ACE03C9E6E308 /* Pods-Score Pedicta.release.xcconfig */,
+				B2121DB471B4BCE63796F033 /* Pods-Score PedictaTests.debug.xcconfig */,
+				39C5F63B894A396BAB84EF17 /* Pods-Score PedictaTests.release.xcconfig */,
+				19E111924B1383979DD57BF6 /* Pods-Score PedictaUITests.debug.xcconfig */,
+				65287E035C12DF6028FDE193 /* Pods-Score PedictaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27403A201F9FB76D00811ED3 /* Score Pedicta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27403A491F9FB76D00811ED3 /* Build configuration list for PBXNativeTarget "Score Pedicta" */;
+			buildPhases = (
+				904D595BD7AB4172BA0FC4B5 /* [CP] Check Pods Manifest.lock */,
+				27403A1D1F9FB76D00811ED3 /* Sources */,
+				27403A1E1F9FB76D00811ED3 /* Frameworks */,
+				27403A1F1F9FB76D00811ED3 /* Resources */,
+				34DFCDDB271872AE9738484F /* [CP] Embed Pods Frameworks */,
+				6F200E6595C2E5A78FF6E316 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Score Pedicta";
+			productName = "Score Pedicta";
+			productReference = 27403A211F9FB76D00811ED3 /* Score Pedicta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27403A341F9FB76D00811ED3 /* Score PedictaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27403A4C1F9FB76D00811ED3 /* Build configuration list for PBXNativeTarget "Score PedictaTests" */;
+			buildPhases = (
+				50DC757CC44CAA0639D161F2 /* [CP] Check Pods Manifest.lock */,
+				27403A311F9FB76D00811ED3 /* Sources */,
+				27403A321F9FB76D00811ED3 /* Frameworks */,
+				27403A331F9FB76D00811ED3 /* Resources */,
+				0842B2490449007ED751377C /* [CP] Embed Pods Frameworks */,
+				A94D072CD3996275508D2F49 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27403A371F9FB76D00811ED3 /* PBXTargetDependency */,
+			);
+			name = "Score PedictaTests";
+			productName = "Score PedictaTests";
+			productReference = 27403A351F9FB76D00811ED3 /* Score PedictaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27403A3F1F9FB76D00811ED3 /* Score PedictaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27403A4F1F9FB76D00811ED3 /* Build configuration list for PBXNativeTarget "Score PedictaUITests" */;
+			buildPhases = (
+				3CAC996CB9E050E7466DD7D7 /* [CP] Check Pods Manifest.lock */,
+				27403A3C1F9FB76D00811ED3 /* Sources */,
+				27403A3D1F9FB76D00811ED3 /* Frameworks */,
+				27403A3E1F9FB76D00811ED3 /* Resources */,
+				A7C2D0A68E93134418CFAEAA /* [CP] Embed Pods Frameworks */,
+				20B02D41B3EE74540A12A50E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27403A421F9FB76D00811ED3 /* PBXTargetDependency */,
+			);
+			name = "Score PedictaUITests";
+			productName = "Score PedictaUITests";
+			productReference = 27403A401F9FB76D00811ED3 /* Score PedictaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27403A191F9FB76D00811ED3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Soumya Ranjan Sethy";
+				TargetAttributes = {
+					27403A201F9FB76D00811ED3 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					27403A341F9FB76D00811ED3 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 27403A201F9FB76D00811ED3;
+					};
+					27403A3F1F9FB76D00811ED3 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 27403A201F9FB76D00811ED3;
+					};
+				};
+			};
+			buildConfigurationList = 27403A1C1F9FB76D00811ED3 /* Build configuration list for PBXProject "Score Pedicta" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27403A181F9FB76D00811ED3;
+			productRefGroup = 27403A221F9FB76D00811ED3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27403A201F9FB76D00811ED3 /* Score Pedicta */,
+				27403A341F9FB76D00811ED3 /* Score PedictaTests */,
+				27403A3F1F9FB76D00811ED3 /* Score PedictaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27403A1F1F9FB76D00811ED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27403A2F1F9FB76D00811ED3 /* LaunchScreen.storyboard in Resources */,
+				27403A2C1F9FB76D00811ED3 /* Assets.xcassets in Resources */,
+				27AB825D1FB214E60059F779 /* ttt.mp4 in Resources */,
+				27403A2A1F9FB76D00811ED3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27403A331F9FB76D00811ED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27403A3E1F9FB76D00811ED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0842B2490449007ED751377C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Score PedictaTests/Pods-Score PedictaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20B02D41B3EE74540A12A50E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Score PedictaUITests/Pods-Score PedictaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34DFCDDB271872AE9738484F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Score Pedicta/Pods-Score Pedicta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CAC996CB9E050E7466DD7D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50DC757CC44CAA0639D161F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F200E6595C2E5A78FF6E316 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Score Pedicta/Pods-Score Pedicta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		904D595BD7AB4172BA0FC4B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7C2D0A68E93134418CFAEAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Score PedictaUITests/Pods-Score PedictaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A94D072CD3996275508D2F49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Score PedictaTests/Pods-Score PedictaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27403A1D1F9FB76D00811ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AB825E1FB2151B0059F779 /* ttt.mp4 in Sources */,
+				2729029D1FB8572600118841 /* PastPredictionVC.swift in Sources */,
+				2777BD921FB6BE970073230D /* ForgetResetVC.swift in Sources */,
+				275519F91FB60793002360A5 /* ForgetVC.swift in Sources */,
+				2734C5931FAC93B500E0E80B /* UnPredictedTableViewCell.swift in Sources */,
+				27518BB51FABA131005B03D3 /* UserDataService.swift in Sources */,
+				275519FB1FB62692002360A5 /* CardView.swift in Sources */,
+				2734C5951FAC969F00E0E80B /* Games.swift in Sources */,
+				2734C5971FAE505B00E0E80B /* PredictNowVC.swift in Sources */,
+				2734C5911FAC7AF900E0E80B /* UnpredictedVC.swift in Sources */,
+				27351FD41FB4AB3C0020317D /* SignupVC.swift in Sources */,
+				279946821FA119AD00C4D57D /* LoginViewController.swift in Sources */,
+				272902991FB8549900118841 /* PastPredictionTableViewCell.swift in Sources */,
+				27518BB31FAB5C04005B03D3 /* AuthService.swift in Sources */,
+				277C953F1FB0F62000D445F8 /* UpcomingTableViewCell.swift in Sources */,
+				27403A251F9FB76D00811ED3 /* AppDelegate.swift in Sources */,
+				277C953D1FB0F08900D445F8 /* UpcomingVC.swift in Sources */,
+				27518BA91FAB573E005B03D3 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27403A311F9FB76D00811ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27403A3A1F9FB76D00811ED3 /* Score_PedictaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27403A3C1F9FB76D00811ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27403A451F9FB76D00811ED3 /* Score_PedictaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27403A371F9FB76D00811ED3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27403A201F9FB76D00811ED3 /* Score Pedicta */;
+			targetProxy = 27403A361F9FB76D00811ED3 /* PBXContainerItemProxy */;
+		};
+		27403A421F9FB76D00811ED3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27403A201F9FB76D00811ED3 /* Score Pedicta */;
+			targetProxy = 27403A411F9FB76D00811ED3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27403A281F9FB76D00811ED3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27403A291F9FB76D00811ED3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27403A2D1F9FB76D00811ED3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27403A2E1F9FB76D00811ED3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27403A471F9FB76D00811ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27403A481F9FB76D00811ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27403A4A1F9FB76D00811ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2209B30200A3DED508324F6 /* Pods-Score Pedicta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MZB2GEF82;
+				INFOPLIST_FILE = "Score Pedicta/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soumya.sethy.scorepredicta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		27403A4B1F9FB76D00811ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0EB85D9684ACE03C9E6E308 /* Pods-Score Pedicta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MZB2GEF82;
+				INFOPLIST_FILE = "Score Pedicta/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soumya.sethy.scorepredicta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		27403A4D1F9FB76D00811ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2121DB471B4BCE63796F033 /* Pods-Score PedictaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MZB2GEF82;
+				INFOPLIST_FILE = "Score PedictaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Soumya-Ranjan-Sethy.Score-PedictaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Score Pedicta.app/Score Pedicta";
+			};
+			name = Debug;
+		};
+		27403A4E1F9FB76D00811ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C5F63B894A396BAB84EF17 /* Pods-Score PedictaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MZB2GEF82;
+				INFOPLIST_FILE = "Score PedictaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Soumya-Ranjan-Sethy.Score-PedictaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Score Pedicta.app/Score Pedicta";
+			};
+			name = Release;
+		};
+		27403A501F9FB76D00811ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19E111924B1383979DD57BF6 /* Pods-Score PedictaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MZB2GEF82;
+				INFOPLIST_FILE = "Score PedictaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Soumya-Ranjan-Sethy.Score-PedictaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Score Pedicta";
+			};
+			name = Debug;
+		};
+		27403A511F9FB76D00811ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65287E035C12DF6028FDE193 /* Pods-Score PedictaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MZB2GEF82;
+				INFOPLIST_FILE = "Score PedictaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Soumya-Ranjan-Sethy.Score-PedictaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Score Pedicta";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27403A1C1F9FB76D00811ED3 /* Build configuration list for PBXProject "Score Pedicta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27403A471F9FB76D00811ED3 /* Debug */,
+				27403A481F9FB76D00811ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27403A491F9FB76D00811ED3 /* Build configuration list for PBXNativeTarget "Score Pedicta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27403A4A1F9FB76D00811ED3 /* Debug */,
+				27403A4B1F9FB76D00811ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27403A4C1F9FB76D00811ED3 /* Build configuration list for PBXNativeTarget "Score PedictaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27403A4D1F9FB76D00811ED3 /* Debug */,
+				27403A4E1F9FB76D00811ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27403A4F1F9FB76D00811ED3 /* Build configuration list for PBXNativeTarget "Score PedictaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27403A501F9FB76D00811ED3 /* Debug */,
+				27403A511F9FB76D00811ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27403A191F9FB76D00811ED3 /* Project object */;
+}

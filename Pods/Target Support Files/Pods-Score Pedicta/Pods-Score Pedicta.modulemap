@@ -1,0 +1,6 @@
+framework module Pods_Score_Pedicta {
+  umbrella header "Pods-Score Pedicta-umbrella.h"
+
+  export *
+  module * { export * }
+}

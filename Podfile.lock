@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (4.5.1)
+  - DatePickerDialog (2.0)
+  - GMStepper (2.1)
+  - IQKeyboardManagerSwift (5.0.4)
+  - SkyFloatingLabelTextField (3.3.0)
+  - Socket.IO-Client-Swift (12.1.2):
+    - Starscream (~> 2.1.1)
+  - Starscream (2.1.1)
+  - SwiftMessages (4.0.0)
+  - SwiftyJSON (3.1.4)
+  - VideoSplashKit (1.2.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - DatePickerDialog
+  - GMStepper
+  - IQKeyboardManagerSwift
+  - SkyFloatingLabelTextField (~> 3.0)
+  - Socket.IO-Client-Swift
+  - SwiftMessages
+  - SwiftyJSON
+  - VideoSplashKit
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  DatePickerDialog: 5e1c24d9fe6506cd45dbc573eed7b0a251b1c09d
+  GMStepper: 8994824040d57d952134e409b7724d05a1a41c18
+  IQKeyboardManagerSwift: a0592bb636b10a9a1cf75d2b2c61144226226c84
+  SkyFloatingLabelTextField: 771be94beca6868a6cea187f70c965ebd81d2f93
+  Socket.IO-Client-Swift: ba3cb1c4bf0a6ca90080406a2c22685c25ad1f60
+  Starscream: 142bd8ef24592d985daee9fa48c936070b85b15f
+  SwiftMessages: cd565e0e7d095584be1770c012c6b5be4183b5ee
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  VideoSplashKit: 9d5670948cfb0be15262d973cedbfd3faecddcad
+
+PODFILE CHECKSUM: 17439cfab00b85b1e84ef5f85e2216a85cba323b
+
+COCOAPODS: 1.1.1
