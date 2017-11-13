@@ -22,7 +22,7 @@ class UnpredictedVC: UIViewController, UITableViewDataSource,UITableViewDelegate
         // Do any additional setup after loading the view.
         gamePredictionListTable.dataSource = self
         gamePredictionListTable.delegate = self
-        self.gamePredictionListTable.rowHeight = 150
+        self.gamePredictionListTable.rowHeight = 170
         self.gamePredictionListTable.tableFooterView = UIView()
         spinner.isHidden = false
         spinner.startAnimating()
