@@ -18,7 +18,7 @@ class PastPredictionVC: UIViewController,UITableViewDataSource,UITableViewDelega
         pastTable.isHidden = true
         pastTable.dataSource = self
         pastTable.delegate = self
-        self.pastTable.rowHeight = 200
+        self.pastTable.rowHeight = 250
         self.pastTable.tableFooterView = UIView()
         spinner.isHidden = false
         spinner.startAnimating()

@@ -363,7 +363,6 @@ class AuthService
                         gameId: game["gameId"].stringValue, startTime: game["startTime"].stringValue, endTime: game["endTime"].stringValue,
                         venue: game["venue"].stringValue,description : game["description"].stringValue,actualDuration : game["actualDuration"].stringValue,gameTeam1MappingId : teams[0]["gameTeamMappingId"].stringValue,
                         gameTeam2MappingId : teams[1]["gameTeamMappingId"].stringValue,sportName : teams[0]["sportName"].stringValue,team1Image: teams[0]["teamLogo"].stringValue, team1Name: teams[0]["teamName"].stringValue, team2Image: teams[1]["teamLogo"].stringValue, team2Name: teams[1]["teamName"].stringValue,team1_predictedScore : teams[0]["predictedScore"].stringValue, team2_predictedScore : teams[1]["predictedScore"].stringValue,team1_maxPredictedScore : teams[0]["maxPredictedScore"].stringValue, team2_maxPredictedScore : teams[1]["maxPredictedScore"].stringValue,team1_averageScore : teams[0]["averageScore"].stringValue, team2_averageScore : teams[1]["averageScore"].stringValue, team1_actualScore: teams[0]["actualScore"].stringValue, team2_actualScore: teams[1]["actualScore"].stringValue) )
-                    
                 }}
             
             

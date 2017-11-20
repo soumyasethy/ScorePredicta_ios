@@ -39,6 +39,9 @@ class PastPredictionTableViewCell: UITableViewCell {
         venue.text = pastGames.venue
         let result = pastGames.startTime.split(separator: " ")
         sportName.text =  result[0] + " - " + pastGames.sportName
+       // let Year = GetOnlyDateMonthYearFromFullDate("yyyy-MM-dd hh:mm:ss.S", conVertFormate: "MMM,dd YYYY", convertDate: pastGames.startTime) as String
+           // "startTime": "2017-11-04 15:24:00.0"
+       
         time.text = result[1]+""
         team1_avg.text = pastGames.team1_averageScore
         team1_most.text = pastGames.team1_maxPredictedScore

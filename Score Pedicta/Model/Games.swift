@@ -45,7 +45,7 @@ struct Games
         
         self.gameTeam1MappingId = gameTeam1MappingId
         self.gameTeam2MappingId = gameTeam2MappingId
-        self.sportName = sportName
+        self.sportName = description
         self.team1Image = team1Image
         self.team1Name = team1Name
         self.team2Image = team2Image
