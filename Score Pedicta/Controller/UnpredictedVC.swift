@@ -39,7 +39,16 @@ class UnpredictedVC: UIViewController, UITableViewDataSource,UITableViewDelegate
                 self.spinner.stopAnimating()
                 
         })
+      if UserDataService.instance.getUnpredictedGames().count == 0
+      {
+        let noDataLabel: UILabel     = UILabel(frame: CGRect(x: 0, y: 0, width: gamePredictionListTable.bounds.size.width, height: gamePredictionListTable.bounds.size.height))
+        noDataLabel.text          = "No data available"
+        noDataLabel.textColor     = UIColor.black
+        noDataLabel.textAlignment = .center
+        gamePredictionListTable.backgroundView  = noDataLabel
+        gamePredictionListTable.separatorStyle  = .none
         
+        }
        
        
     }
@@ -72,4 +81,5 @@ class UnpredictedVC: UIViewController, UITableViewDataSource,UITableViewDelegate
         //predictNowVC?.initPredictionDeatils(game : sender as! GamePredictionList)
         predictNowVC?.index = index
     }
+    
 }

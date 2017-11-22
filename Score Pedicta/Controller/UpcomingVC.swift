@@ -30,6 +30,16 @@ class UpcomingVC: UIViewController, UITableViewDataSource,UITableViewDelegate {
                     //print("Upcoming Game List is Successfully Updated")
                     self.upcomingTable.reloadData()
                     self.upcomingTable.isHidden = false
+                    if UserDataService.instance.getUpcomingGames().count == 0
+                    {
+                        let noDataLabel: UILabel     = UILabel(frame: CGRect(x: 0, y: 0, width: self.upcomingTable.bounds.size.width, height: self.upcomingTable.bounds.size.height))
+                        noDataLabel.text          = "No data available"
+                        noDataLabel.textColor     = UIColor.black
+                        noDataLabel.textAlignment = .center
+                        self.upcomingTable.backgroundView  = noDataLabel
+                        self.upcomingTable.separatorStyle  = .none
+                        
+                    }
                       }
                 else{
                     displayMesssage(type: _error, title: UserDataService.instance.errorCode, body: UserDataService.instance.errorMessage)
@@ -38,6 +48,7 @@ class UpcomingVC: UIViewController, UITableViewDataSource,UITableViewDelegate {
                 self.spinner.stopAnimating()
                 
         })
+        
         
         
         
