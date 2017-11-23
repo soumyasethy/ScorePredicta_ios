@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import VideoSplashKit
 import SkyFloatingLabelTextField
 
-class ForgetResetVC: UIViewController {
+class ForgetResetVC: VideoSplashViewController {
     var email : String = "";
     @IBOutlet weak var emailTxt: UILabel!
     @IBOutlet weak var token: SkyFloatingLabelTextField!
@@ -21,6 +22,18 @@ class ForgetResetVC: UIViewController {
         // Do any additional setup after loading the view.
         spinner.isHidden = true
         emailTxt.text = email
+        // Do any additional setup after loading the view.
+        let url = NSURL.fileURL(withPath: Bundle.main.path(forResource: "ttt", ofType: "mp4")!)
+        self.videoFrame = view.frame
+        fillMode = .resizeAspectFill
+        self.alwaysRepeat = true
+        self.sound = true
+        self.startTime = 12.0
+        self.duration = 4.0
+        self.alpha = 0.7
+        self.backgroundColor = UIColor.black
+        self.contentURL = url
+        self.restartForeground = true
     }
     @IBAction func verifyTapped(_ sender: Any) {
         if (token.text?.isEmpty)! {return}

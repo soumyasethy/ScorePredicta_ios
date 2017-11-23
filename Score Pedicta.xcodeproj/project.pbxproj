@@ -31,7 +31,7 @@
 		279946821FA119AD00C4D57D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279946811FA119AD00C4D57D /* LoginViewController.swift */; };
 		27AB825D1FB214E60059F779 /* ttt.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 27AB825C1FB214E60059F779 /* ttt.mp4 */; };
 		27AB825E1FB2151B0059F779 /* ttt.mp4 in Sources */ = {isa = PBXBuildFile; fileRef = 27AB825C1FB214E60059F779 /* ttt.mp4 */; };
-		485FF5753B9A14B73CB311E2 /* Pods_Score_Pedicta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7DE5E818AD333F580401F7 /* Pods_Score_Pedicta.framework */; };
+		485FF5753B9A14B73CB311E2 /* Pods_Score_Pedicta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7DE5E818AD333F580401F7 /* Pods_Score_Pedicta.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		63DE4C692C338DBE2BCD138A /* Pods_Score_PedictaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42A519242FC29AA471BDEB6 /* Pods_Score_PedictaUITests.framework */; };
 		8E536B91FCDB40AF6ECA2860 /* Pods_Score_PedictaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6D63A5A83175C0117144687 /* Pods_Score_PedictaTests.framework */; };
 /* End PBXBuildFile section */
@@ -334,7 +334,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Soumya Ranjan Sethy";
 				TargetAttributes = {
 					27403A201F9FB76D00811ED3 = {
@@ -494,7 +494,7 @@
 		};
 		904D595BD7AB4172BA0FC4B5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -727,8 +727,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B2209B30200A3DED508324F6 /* Pods-Score Pedicta.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Subhakanta Das (C244UVZ5AN)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Subhakanta Das (KKUCD4UGHT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KKUCD4UGHT;
@@ -746,8 +747,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0EB85D9684ACE03C9E6E308 /* Pods-Score Pedicta.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Subhakanta Das (C244UVZ5AN)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Subhakanta Das (KKUCD4UGHT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KKUCD4UGHT;

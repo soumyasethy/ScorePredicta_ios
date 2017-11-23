@@ -28,7 +28,6 @@ class UpcomingTableViewCell: UITableViewCell {
     
     func updateViews(upcomingGame : Games)
     {
-        //print("Updating Upcoming View")
         team1.image = UIImage(data: Data(base64Encoded: upcomingGame.team1Image, options: .ignoreUnknownCharacters)!)
         team2.image = UIImage(data: Data(base64Encoded: upcomingGame.team2Image, options: .ignoreUnknownCharacters)!)
         team1_name.text = upcomingGame.team1Name
@@ -44,28 +43,5 @@ class UpcomingTableViewCell: UITableViewCell {
         team2_most.text = upcomingGame.team2_maxPredictedScore
         team2_predicted.text = upcomingGame.team2_predictedScore
         duration.text = "Duration : "+upcomingGame.actualDuration+" mins"
-
-      
-    
-        //let cornerRadius : CGFloat = 5.0
-        self.team1_most.layer.borderWidth = 1.0
-        self.team1_most.layer.borderColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
-        //self.team1_most.layer.cornerRadius = cornerRadius
-        
-        self.team1_avg.layer.borderWidth = 1.0
-        self.team1_avg.layer.borderColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
-        //self.team1_avg.layer.cornerRadius = cornerRadius
-        
-        self.team2_most.layer.borderWidth = 1.0
-        self.team2_most.layer.borderColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
-        //self.team2_most.layer.cornerRadius = cornerRadius
-        
-        self.team2_avg.layer.borderWidth = 1.0
-        self.team2_avg.layer.borderColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
-        //self.team2_avg.layer.cornerRadius = cornerRadius
-       
-        
-        
-        
     }
 }

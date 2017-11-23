@@ -8,8 +8,9 @@
 
 import UIKit
 import SkyFloatingLabelTextField
+import VideoSplashKit
 
-class ForgetVC: UIViewController {
+class ForgetVC: VideoSplashViewController {
     @IBOutlet weak var email: SkyFloatingLabelTextField!
     @IBOutlet weak var spinner: UIActivityIndicatorView!
     override func viewDidLoad() {
@@ -17,6 +18,19 @@ class ForgetVC: UIViewController {
 
         // Do any additional setup after loading the view.
          spinner.isHidden = true
+        // Do any additional setup after loading the view.
+        let url = NSURL.fileURL(withPath: Bundle.main.path(forResource: "ttt", ofType: "mp4")!)
+        self.videoFrame = view.frame
+        fillMode = .resizeAspectFill
+        self.alwaysRepeat = true
+        self.sound = true
+        self.startTime = 12.0
+        self.duration = 4.0
+        self.alpha = 0.7
+        self.backgroundColor = UIColor.black
+        self.contentURL = url
+        self.restartForeground = true
+        
     }
 
     

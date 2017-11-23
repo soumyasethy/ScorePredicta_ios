@@ -186,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Score Pedicta/View/UpcomingTableViewCell.swift"
-            timestampString = "533065591.451749"
+            timestampString = "533149054.323871"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "updateViews(upcomingGame:)"
             landmarkType = "7">
          </BreakpointContent>

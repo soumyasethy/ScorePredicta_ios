@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -249,10 +249,10 @@
 		0CA038C9AB25B9EE9649A0DE60E5266F /* NSBundle+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+Utils.swift"; path = "SwiftMessages/NSBundle+Utils.swift"; sourceTree = "<group>"; };
 		0ED75943318665DD8F84FEB072FF3B09 /* Socket.IO-Client-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Socket.IO-Client-Swift.xcconfig"; sourceTree = "<group>"; };
 		0F3FF47F1450C8783C18673E623AB36A /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
-		10C049545219F18F8D10557C97F14B2C /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C049545219F18F8D10557C97F14B2C /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11761B8C4873D3BB3996E784684F8D4E /* VideoSplashKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VideoSplashKit-umbrella.h"; sourceTree = "<group>"; };
-		1292ADAA7EC5AD69B2C828ED7A8FFABD /* DatePickerDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DatePickerDialog.modulemap; sourceTree = "<group>"; };
-		133D829AB087EDF95EF8FF35CC9457F1 /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
+		1292ADAA7EC5AD69B2C828ED7A8FFABD /* DatePickerDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DatePickerDialog.modulemap; sourceTree = "<group>"; };
+		133D829AB087EDF95EF8FF35CC9457F1 /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
 		13AF4EE2DF0290548CFD667CE5AF210F /* Pods-Score Pedicta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Score Pedicta-umbrella.h"; sourceTree = "<group>"; };
 		13F47CB41457E1A4408358DBC450870A /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		143B28FBC8F84D4852EEB5934B1B8A21 /* MessageViewIOS8.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MessageViewIOS8.xib; path = SwiftMessages/Resources/MessageViewIOS8.xib; sourceTree = "<group>"; };
@@ -276,7 +276,7 @@
 		2176E3F9F382E4D5DD3A9F82CF2793FB /* Pods-Score PedictaUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Score PedictaUITests-resources.sh"; sourceTree = "<group>"; };
 		23CB6CC1E546D13DA1D613C8BEFF8DB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2400294172BBA12E85CED42BC1CF711D /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Source/SocketIO/Util/SSLSecurity.swift; sourceTree = "<group>"; };
-		241AC2E7886E00DE0E293793CE2341AC /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		241AC2E7886E00DE0E293793CE2341AC /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
 		24D7DEC06D9E69D1E224F07C0976C441 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		257717628AF5EE863847EA3DC1F817AB /* PhysicsPanHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhysicsPanHandler.swift; path = SwiftMessages/PhysicsPanHandler.swift; sourceTree = "<group>"; };
 		25D4D8B645BCB5455516162B92EFC53E /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
@@ -299,23 +299,23 @@
 		491DE8646B04F4F12D6F67B2CB8114E3 /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
 		4935FECD34BBFF632913B7F598C1DAB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A006D59A18E8F45E4C1DAFAB9B16378 /* SwiftMessages.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftMessages.xcconfig; sourceTree = "<group>"; };
-		4BC6132FE18A3E1BE891A72DF597496C /* GMStepper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GMStepper.modulemap; sourceTree = "<group>"; };
+		4BC6132FE18A3E1BE891A72DF597496C /* GMStepper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GMStepper.modulemap; sourceTree = "<group>"; };
 		4C42A405F3AC9C765A6E72DEA4167A03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D0F50E20A658658684BDF05B11D66FF /* Pods-Score PedictaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Score PedictaUITests.modulemap"; sourceTree = "<group>"; };
+		4D0F50E20A658658684BDF05B11D66FF /* Pods-Score PedictaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Score PedictaUITests.modulemap"; sourceTree = "<group>"; };
 		4D10700D88A001D7A93380AD57E61EE5 /* SwiftMessages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftMessages.swift; path = SwiftMessages/SwiftMessages.swift; sourceTree = "<group>"; };
 		4D56869CBA47182AD31BA8E4382C85AE /* Pods-Score PedictaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Score PedictaTests-umbrella.h"; sourceTree = "<group>"; };
-		4E97DC382988E96CB54ACF2674EDFCCC /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		4E97DC382988E96CB54ACF2674EDFCCC /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		4EB24288AD1B5D9E07F5A5681B0783E7 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
 		4EDA81EC87A329DB0EC015AC277368FB /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		4F701779E34B3D5981B6F2515A4821B8 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
 		505F0D7686AD39E9DD23F1BED7ED0C79 /* Pods-Score PedictaTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Score PedictaTests-frameworks.sh"; sourceTree = "<group>"; };
 		53D7916B97F571BBE3B7B1203585FC29 /* BaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseView.swift; path = SwiftMessages/BaseView.swift; sourceTree = "<group>"; };
-		53FA9D816C02BB1ADFFBD1921D4CBD64 /* Pods_Score_PedictaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Score_PedictaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53FA9D816C02BB1ADFFBD1921D4CBD64 /* Pods_Score_PedictaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Score_PedictaUITests.framework; path = "Pods-Score PedictaUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BC59EEC9943915C57604887F9ABEA0 /* BackgroundViewable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundViewable.swift; path = SwiftMessages/BackgroundViewable.swift; sourceTree = "<group>"; };
 		58D4557B004732431F04C0309CCB5B83 /* VideoSplashKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VideoSplashKit-dummy.m"; sourceTree = "<group>"; };
 		5A28BA0806CBDA48014E4B1966876525 /* SocketPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketPacket.swift; path = Source/SocketIO/Parse/SocketPacket.swift; sourceTree = "<group>"; };
 		5AD9C1E14051A5C878098D0162493806 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
-		5AF6ADF5F0957D0A92D80007A7B50B84 /* Pods_Score_PedictaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Score_PedictaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF6ADF5F0957D0A92D80007A7B50B84 /* Pods_Score_PedictaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Score_PedictaTests.framework; path = "Pods-Score PedictaTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B2A7B56F5A5952AA3513214D4721DFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B83254EBDF948A9337D7BE8687F040C /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		5D1F38BE107E027672F018C071F39EE3 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
@@ -335,16 +335,16 @@
 		66CE268D895ECDF879EE4F1FE0EBCFDC /* Pods-Score PedictaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Score PedictaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		687DB01B69CCE80DA0B818F5D619D692 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		68A70EAC6E62F18BE07EB5D9C0F2512E /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
-		695724EBA23BCCC68F44599474C1B9C7 /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AF0A2787796E88CA045F25BFFC380FA /* Pods-Score Pedicta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Score Pedicta.modulemap"; sourceTree = "<group>"; };
-		6B79A6F9F7C7041F7FF6C6CF3540474D /* SwiftMessages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftMessages.modulemap; sourceTree = "<group>"; };
+		695724EBA23BCCC68F44599474C1B9C7 /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketIO.framework; path = "Socket.IO-Client-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF0A2787796E88CA045F25BFFC380FA /* Pods-Score Pedicta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Score Pedicta.modulemap"; sourceTree = "<group>"; };
+		6B79A6F9F7C7041F7FF6C6CF3540474D /* SwiftMessages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftMessages.modulemap; sourceTree = "<group>"; };
 		6CB555952F16CB5DF8A703B29FB18DCF /* Pods-Score PedictaUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Score PedictaUITests-frameworks.sh"; sourceTree = "<group>"; };
-		6CD1D730F54FF9CCBF3C6751B5FF4B6E /* VideoSplashKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = VideoSplashKit.modulemap; sourceTree = "<group>"; };
+		6CD1D730F54FF9CCBF3C6751B5FF4B6E /* VideoSplashKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = VideoSplashKit.modulemap; sourceTree = "<group>"; };
 		6D07F81F3948DF0CC9D5785AB213E067 /* SocketExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketExtensions.swift; path = Source/SocketIO/Util/SocketExtensions.swift; sourceTree = "<group>"; };
 		6E81573A42C3C5D97F98BEEF8CE5D121 /* SocketIOClientSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientSpec.swift; path = Source/SocketIO/Client/SocketIOClientSpec.swift; sourceTree = "<group>"; };
 		71D1D166116EF126E9A095D69B3D3970 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7496247420D41DC3F043F17D28D6DCD3 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		76F644461E56A756FD5180BF9665060C /* Socket.IO-Client-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Socket.IO-Client-Swift.modulemap"; sourceTree = "<group>"; };
+		76F644461E56A756FD5180BF9665060C /* Socket.IO-Client-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Socket.IO-Client-Swift.modulemap"; sourceTree = "<group>"; };
 		771F809CA8533C4F6CE78F02F469F099 /* Pods-Score PedictaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Score PedictaTests-dummy.m"; sourceTree = "<group>"; };
 		78A3DE9CEF80C32D526C33DFA2EDFC7A /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		7BF35367B8431AFAD7C47A193F5950F5 /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
@@ -357,15 +357,15 @@
 		877B121387554E999B241AAAACB6F053 /* Pods-Score Pedicta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Score Pedicta-dummy.m"; sourceTree = "<group>"; };
 		88121488DF2A056559AFB493EE2AF26A /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SwiftMessages/Resources/Images.xcassets; sourceTree = "<group>"; };
 		89E3C903FF31A9AE69DBB826268FEB57 /* Pods-Score Pedicta-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Score Pedicta-frameworks.sh"; sourceTree = "<group>"; };
-		89F3911656F3D2EB4E88A94592E0D743 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89F3911656F3D2EB4E88A94592E0D743 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A24E153C49BF22DADCFF894C13BA606 /* PassthroughView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassthroughView.swift; path = SwiftMessages/PassthroughView.swift; sourceTree = "<group>"; };
-		8D4DC69CD5F18D2FAE7CF3E0FA0C4EE3 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DBE21ED3D4DF1BA26008871BA3C5C28 /* DatePickerDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DatePickerDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DEF2ED23EDDC2B76F601934F5A184C2 /* Pods-Score PedictaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Score PedictaTests.modulemap"; sourceTree = "<group>"; };
+		8D4DC69CD5F18D2FAE7CF3E0FA0C4EE3 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBE21ED3D4DF1BA26008871BA3C5C28 /* DatePickerDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DatePickerDialog.framework; path = DatePickerDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DEF2ED23EDDC2B76F601934F5A184C2 /* Pods-Score PedictaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Score PedictaTests.modulemap"; sourceTree = "<group>"; };
 		8F56A88E2D443D444A3480BBBAAEEF66 /* Pods-Score PedictaTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Score PedictaTests-resources.sh"; sourceTree = "<group>"; };
-		9291A9ADF22C93BCBDCEB74708FBA0C3 /* SwiftMessages.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMessages.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9291A9ADF22C93BCBDCEB74708FBA0C3 /* SwiftMessages.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftMessages.bundle; path = SwiftMessages.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		93512B319F769D51511618D17E1EC631 /* Socket.IO-Client-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Socket.IO-Client-Swift-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94927F85160A8660EE92EF6B80ACE5A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95ACDADF876E11E6825A7A9D1BE5CE84 /* StatusLine.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = StatusLine.xib; path = SwiftMessages/Resources/StatusLine.xib; sourceTree = "<group>"; };
 		96882B4679DFC2D640B62F6B381FF9E2 /* Pods-Score PedictaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Score PedictaUITests-umbrella.h"; sourceTree = "<group>"; };
@@ -398,14 +398,14 @@
 		B893F45058311BF2E71DB2379E7FA345 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = SwiftMessages/Theme.swift; sourceTree = "<group>"; };
 		BABD0D08CA39A2AEEE103C00B6EF739F /* Pods-Score PedictaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Score PedictaTests.release.xcconfig"; sourceTree = "<group>"; };
 		BADD94D776D628008D4C768FC0714E3D /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		BB5B6BC2CEC236BF42EBA3CBF537D72D /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5B6BC2CEC236BF42EBA3CBF537D72D /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB80C5387BE473225AF9BC5FBE9250C1 /* DatePickerDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DatePickerDialog-umbrella.h"; sourceTree = "<group>"; };
-		BC7D170DFEA516F7EC30225E36CEE501 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		BC7D170DFEA516F7EC30225E36CEE501 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		BD7C14810D06861DC178E6DDD495A1B6 /* Pods-Score PedictaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Score PedictaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C0315540EAE8034B8B6F50547AF9470B /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		C04E473B21BC9AB6D4C0EBE3169F9CD2 /* TabView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TabView.xib; path = SwiftMessages/Resources/TabView.xib; sourceTree = "<group>"; };
-		C28809D2828B1C052044D21E7065CD6F /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2A1E7EC9C8371F7D8DF715BDF1A190A /* GMStepper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GMStepper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28809D2828B1C052044D21E7065CD6F /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A1E7EC9C8371F7D8DF715BDF1A190A /* GMStepper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GMStepper.framework; path = GMStepper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4711C6E43914F93527306D48688F499 /* DatePickerDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DatePickerDialog.xcconfig; sourceTree = "<group>"; };
 		C4986939BDA7E97AF8E4F071378EE9B5 /* Starscream.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.xcconfig; sourceTree = "<group>"; };
 		C55C8B51B7EDE5A47C2446C2811A2A1E /* Weak.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Weak.swift; path = SwiftMessages/Weak.swift; sourceTree = "<group>"; };
@@ -413,7 +413,7 @@
 		C59384AB126E88E6B325571788520533 /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Source/SSLSecurity.swift; sourceTree = "<group>"; };
 		C67AC75BB93D7BE3D9140C3579E3BD14 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Source/WebSocket.swift; sourceTree = "<group>"; };
 		C6F414D950B97605150A4EC26381D6C2 /* SocketIOClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClient.swift; path = Source/SocketIO/Client/SocketIOClient.swift; sourceTree = "<group>"; };
-		C7162C604DC36089CC15EA24C589C8B0 /* SwiftMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7162C604DC36089CC15EA24C589C8B0 /* SwiftMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftMessages.framework; path = SwiftMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71DDF31CF07E28BB18F034E44363922 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
 		CA0FEDC6FBF457EB6F644D857F38AEE1 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		CAA0FB7E49B049E1CE84539515BCF439 /* GMStepper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMStepper-prefix.pch"; sourceTree = "<group>"; };
@@ -426,13 +426,13 @@
 		D3198B0E160101AB180A3267ACB124EB /* CenteredView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CenteredView.xib; path = SwiftMessages/Resources/CenteredView.xib; sourceTree = "<group>"; };
 		D56857632F784E871CB84C2E53C073A6 /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIWindow+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
 		D5D0121FF6B47DF0AFA30877D102891E /* Pods-Score PedictaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Score PedictaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D89DCCB176A91326270AB6BD51A14435 /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Starscream.modulemap; sourceTree = "<group>"; };
+		D89DCCB176A91326270AB6BD51A14435 /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Starscream.modulemap; sourceTree = "<group>"; };
 		D9349F27B531DEE425B76762C711E3D8 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
 		D9AC558C65C950D3195D7B265C380A11 /* Pods-Score Pedicta-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Score Pedicta-acknowledgements.plist"; sourceTree = "<group>"; };
 		DBA56742F55359F6CC97DEE59D8B7EA0 /* SocketAckManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAckManager.swift; path = Source/SocketIO/Ack/SocketAckManager.swift; sourceTree = "<group>"; };
-		DC14B9DCBAEE84C22AD3AEBA746BB3DB /* Pods_Score_Pedicta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Score_Pedicta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC14B9DCBAEE84C22AD3AEBA746BB3DB /* Pods_Score_Pedicta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Score_Pedicta.framework; path = "Pods-Score Pedicta.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD61EE0DC00FB49C7372327877C65F9B /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = SwiftMessages/Animator.swift; sourceTree = "<group>"; };
-		DDDBD889790167BCA01DCC0D2CCFF516 /* VideoSplashKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VideoSplashKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDBD889790167BCA01DCC0D2CCFF516 /* VideoSplashKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VideoSplashKit.framework; path = VideoSplashKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E07408199A7DACCC8CDB68C1E023F188 /* MarginAdjustable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarginAdjustable.swift; path = SwiftMessages/MarginAdjustable.swift; sourceTree = "<group>"; };
 		E2F0DF72F9E6B33B3730BBD7332484B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E516FFA1E1B8723F9A33AFB702082252 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -604,6 +604,7 @@
 				1802D71513F270F5AE85191C4E9638D3 /* VideoSplashViewController.swift */,
 				48952F272DB03D3E69C381423815F36E /* Support Files */,
 			);
+			name = VideoSplashKit;
 			path = VideoSplashKit;
 			sourceTree = "<group>";
 		};
@@ -656,6 +657,7 @@
 				D29ECFF53EA0AE852CB8AE85FFF57511 /* Resources */,
 				DB5585D9CE48865ADEE92F44027B3353 /* Support Files */,
 			);
+			name = SwiftMessages;
 			path = SwiftMessages;
 			sourceTree = "<group>";
 		};
@@ -681,6 +683,7 @@
 				68A70EAC6E62F18BE07EB5D9C0F2512E /* UITextField+fixCaretPosition.swift */,
 				43CE5B023EFB1B16ADA88A74C72C17A5 /* Support Files */,
 			);
+			name = SkyFloatingLabelTextField;
 			path = SkyFloatingLabelTextField;
 			sourceTree = "<group>";
 		};
@@ -704,6 +707,7 @@
 				85F1ACC71D31C463D5DE1F36E2A90C5B /* GMStepper.swift */,
 				8A70F9216EDE3D834E895B68BB98ED5E /* Support Files */,
 			);
+			name = GMStepper;
 			path = GMStepper;
 			sourceTree = "<group>";
 		};
@@ -731,6 +735,7 @@
 				0F3FF47F1450C8783C18673E623AB36A /* SwiftyJSON.swift */,
 				0508340421D5FDABAB89CEF24B8C1023 /* Support Files */,
 			);
+			name = SwiftyJSON;
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
@@ -817,6 +822,7 @@
 				C67AC75BB93D7BE3D9140C3579E3BD14 /* WebSocket.swift */,
 				6AB3FA142CA201F10184AB78481FA261 /* Support Files */,
 			);
+			name = Starscream;
 			path = Starscream;
 			sourceTree = "<group>";
 		};
@@ -862,6 +868,7 @@
 				2400294172BBA12E85CED42BC1CF711D /* SSLSecurity.swift */,
 				19EBE0E12B0516259354BB928093CCA6 /* Support Files */,
 			);
+			name = "Socket.IO-Client-Swift";
 			path = "Socket.IO-Client-Swift";
 			sourceTree = "<group>";
 		};
@@ -909,6 +916,7 @@
 				9A0568CA96FC1E4399AC8A037B04A5C3 /* Resources */,
 				7CADC71158923CD980FCFFDEC1A4F7C7 /* Support Files */,
 			);
+			name = IQKeyboardManagerSwift;
 			path = IQKeyboardManagerSwift;
 			sourceTree = "<group>";
 		};
@@ -945,6 +953,7 @@
 				13F47CB41457E1A4408358DBC450870A /* Validation.swift */,
 				963B5D6ADE75FF49CC10C646A12BDDC7 /* Support Files */,
 			);
+			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -1033,6 +1042,7 @@
 				A87CD5AA4F01B5F117CD6FE5B797815C /* DatePickerDialog.swift */,
 				AE00698E61680F078E309884A2F1915D /* Support Files */,
 			);
+			name = DatePickerDialog;
 			path = DatePickerDialog;
 			sourceTree = "<group>";
 		};
