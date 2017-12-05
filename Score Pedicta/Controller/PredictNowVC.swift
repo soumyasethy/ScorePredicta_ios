@@ -38,7 +38,7 @@ class PredictNowVC: UIViewController {
         team_name.text = game.team1Name
         team2_name.text = game.team2Name
         venueTxt.text = game.venue
-        durationTxt.text = "Duration : " + game.actualDuration
+        durationTxt.text = "Duration : " + game.actualDuration+" mins."
         descriptionTxt.text = "Description : " + game.description
         startTime_txt.text = "Start Time : " + game.startTime
         endTime_txt.text = "End Time : " + game.endTime
@@ -56,15 +56,16 @@ class PredictNowVC: UIViewController {
             { (success) in
                 if success {
                     displayMesssage(type: _success, title: UserDataService.instance.status, body: "Prediction Submitted")
+                    self.performSegue(withIdentifier: predictNow_to_Unpredicted, sender: nil)
                 }
                 else{
                     displayMesssage(type: _error, title: UserDataService.instance.errorCode, body: UserDataService.instance.errorMessage)
                 }
                 self.spinner.isHidden = true
                 self.spinner.stopAnimating()
-                
+
         })
     }
    
-   
+    
 }

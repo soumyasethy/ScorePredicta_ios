@@ -24,12 +24,14 @@ import SwiftMessages
  let URL_UNPREDICTED_GAMES = "\(_BASE_URL)list/unpredictedgames"
  let URL_PREDICT_NOW = "\(_BASE_URL)predict"
  let URL_UPCOMING_GAME_LIST = "\(_BASE_URL)list/upcominggames/score"
- let URL_PAST_GAME_LIST = "\(_BASE_URL)list/pastpredictions"
+ let URL_PAST_GAME_LIST = "\(_BASE_URL)pastpredictions/score"
  
+
  //segues
  let TO_HOME  = "toHomePage"
  let TO_RESET_PASSWORD = "toResetPassword"
  let predictNow = "predictNow"
+ let predictNow_to_Unpredicted = "predictNow_to_Unpredicted"
  
  //Table Cell
  let upcomingID = "upcomingID"

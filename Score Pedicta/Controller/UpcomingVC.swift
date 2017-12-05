@@ -20,7 +20,7 @@ class UpcomingVC: UIViewController, UITableViewDataSource,UITableViewDelegate {
         upcomingTable.isHidden = true
         upcomingTable.dataSource = self
         upcomingTable.delegate = self
-        self.upcomingTable.rowHeight = 255
+        self.upcomingTable.rowHeight = 250
         self.upcomingTable.tableFooterView = UIView()
         spinner.isHidden = false        
         spinner.startAnimating()

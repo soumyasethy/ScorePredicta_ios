@@ -8,15 +8,17 @@ target 'Score Pedicta' do
   use_frameworks!
 
   # Pods for Score Pedicta
-  pod 'Alamofire'
-  pod 'SwiftyJSON'
-  pod 'Socket.IO-Client-Swift'
-  pod "GMStepper"
+ pod 'Alamofire'
+ pod 'SwiftyJSON'
+ pod 'Socket.IO-Client-Swift'
+ pod "GMStepper"
  pod 'SkyFloatingLabelTextField', '~> 3.0'
  pod 'VideoSplashKit'
  pod 'SwiftMessages'
  pod 'DatePickerDialog'
  pod 'IQKeyboardManagerSwift'
+ pod "Pastel"
+
   
   target 'Score PedictaTests' do
     inherit! :search_paths

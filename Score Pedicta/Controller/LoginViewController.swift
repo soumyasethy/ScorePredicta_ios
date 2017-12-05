@@ -11,6 +11,9 @@ import VideoSplashKit
 import SkyFloatingLabelTextField
 import SwiftMessages
 
+
+
+
 class LoginViewController: VideoSplashViewController, UITextFieldDelegate {
     
     @IBOutlet weak var signup_btn: UIButton!
@@ -49,8 +52,7 @@ class LoginViewController: VideoSplashViewController, UITextFieldDelegate {
         // signup_btn.layer.cornerRadius = cornerRadius
         
     }
-    
-    
+   
     @IBAction func loginButtonTapped(_ sender: Any) {
         let userEmail = self.userEmail.text
         let userPassword = self.userPassword.text
@@ -82,6 +84,7 @@ class LoginViewController: VideoSplashViewController, UITextFieldDelegate {
         
     }
     
-    
+   
+
 }
 

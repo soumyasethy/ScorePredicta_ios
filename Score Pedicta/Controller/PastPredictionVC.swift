@@ -13,7 +13,7 @@ class PastPredictionVC: UIViewController,UITableViewDataSource,UITableViewDelega
     @IBOutlet weak var spinner: UIActivityIndicatorView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         pastTable.isHidden = true
         pastTable.dataSource = self
@@ -25,7 +25,6 @@ class PastPredictionVC: UIViewController,UITableViewDataSource,UITableViewDelega
         AuthService.instance.pastGames(pageNo: "0", pageSize: "10", completion:
             { (success) in
                 if success {
-                    //print("Upcoming Game List is Successfully Updated")
                     self.pastTable.reloadData()
                     self.pastTable.isHidden = false
                     if UserDataService.instance.getPastGames().count == 0
@@ -38,6 +37,7 @@ class PastPredictionVC: UIViewController,UITableViewDataSource,UITableViewDelega
                         self.pastTable.separatorStyle  = .none
                         
                     }
+                   
                 }
                 else{
                     displayMesssage(type: _error, title: UserDataService.instance.errorCode, body: UserDataService.instance.errorMessage)
@@ -65,5 +65,5 @@ class PastPredictionVC: UIViewController,UITableViewDataSource,UITableViewDelega
             return PastPredictionTableViewCell()
         }
     }
-
+    
 }

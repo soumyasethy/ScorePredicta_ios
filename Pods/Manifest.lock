@@ -3,6 +3,7 @@ PODS:
   - DatePickerDialog (2.0)
   - GMStepper (2.1)
   - IQKeyboardManagerSwift (5.0.4)
+  - Pastel (0.3.0)
   - SkyFloatingLabelTextField (3.3.0)
   - Socket.IO-Client-Swift (12.1.2):
     - Starscream (~> 2.1.1)
@@ -16,6 +17,7 @@ DEPENDENCIES:
   - DatePickerDialog
   - GMStepper
   - IQKeyboardManagerSwift
+  - Pastel
   - SkyFloatingLabelTextField (~> 3.0)
   - Socket.IO-Client-Swift
   - SwiftMessages
@@ -27,6 +29,7 @@ SPEC CHECKSUMS:
   DatePickerDialog: 5e1c24d9fe6506cd45dbc573eed7b0a251b1c09d
   GMStepper: 8994824040d57d952134e409b7724d05a1a41c18
   IQKeyboardManagerSwift: a0592bb636b10a9a1cf75d2b2c61144226226c84
+  Pastel: 738740c84f2b15bbcd96ebe99c4e6c2f5dd42262
   SkyFloatingLabelTextField: 771be94beca6868a6cea187f70c965ebd81d2f93
   Socket.IO-Client-Swift: ba3cb1c4bf0a6ca90080406a2c22685c25ad1f60
   Starscream: 142bd8ef24592d985daee9fa48c936070b85b15f
@@ -34,6 +37,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
   VideoSplashKit: 9d5670948cfb0be15262d973cedbfd3faecddcad
 
-PODFILE CHECKSUM: 17439cfab00b85b1e84ef5f85e2216a85cba323b
+PODFILE CHECKSUM: 2e6b27f596bea42ab81b769fdc8552008b8c368d
 
 COCOAPODS: 1.1.1

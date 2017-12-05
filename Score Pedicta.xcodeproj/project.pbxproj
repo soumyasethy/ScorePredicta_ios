@@ -18,8 +18,6 @@
 		27403A2A1F9FB76D00811ED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27403A281F9FB76D00811ED3 /* Main.storyboard */; };
 		27403A2C1F9FB76D00811ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27403A2B1F9FB76D00811ED3 /* Assets.xcassets */; };
 		27403A2F1F9FB76D00811ED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27403A2D1F9FB76D00811ED3 /* LaunchScreen.storyboard */; };
-		27403A3A1F9FB76D00811ED3 /* Score_PedictaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27403A391F9FB76D00811ED3 /* Score_PedictaTests.swift */; };
-		27403A451F9FB76D00811ED3 /* Score_PedictaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27403A441F9FB76D00811ED3 /* Score_PedictaUITests.swift */; };
 		27518BA91FAB573E005B03D3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27518BA81FAB573E005B03D3 /* Constants.swift */; };
 		27518BB31FAB5C04005B03D3 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27518BB21FAB5C04005B03D3 /* AuthService.swift */; };
 		27518BB51FABA131005B03D3 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27518BB41FABA131005B03D3 /* UserDataService.swift */; };
@@ -32,26 +30,7 @@
 		27AB825D1FB214E60059F779 /* ttt.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 27AB825C1FB214E60059F779 /* ttt.mp4 */; };
 		27AB825E1FB2151B0059F779 /* ttt.mp4 in Sources */ = {isa = PBXBuildFile; fileRef = 27AB825C1FB214E60059F779 /* ttt.mp4 */; };
 		485FF5753B9A14B73CB311E2 /* Pods_Score_Pedicta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7DE5E818AD333F580401F7 /* Pods_Score_Pedicta.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		63DE4C692C338DBE2BCD138A /* Pods_Score_PedictaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42A519242FC29AA471BDEB6 /* Pods_Score_PedictaUITests.framework */; };
-		8E536B91FCDB40AF6ECA2860 /* Pods_Score_PedictaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6D63A5A83175C0117144687 /* Pods_Score_PedictaTests.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		27403A361F9FB76D00811ED3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 27403A191F9FB76D00811ED3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 27403A201F9FB76D00811ED3;
-			remoteInfo = "Score Pedicta";
-		};
-		27403A411F9FB76D00811ED3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 27403A191F9FB76D00811ED3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 27403A201F9FB76D00811ED3;
-			remoteInfo = "Score Pedicta";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		19E111924B1383979DD57BF6 /* Pods-Score PedictaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Score PedictaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Score PedictaUITests/Pods-Score PedictaUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,10 +47,8 @@
 		27403A2B1F9FB76D00811ED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27403A2E1F9FB76D00811ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27403A301F9FB76D00811ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27403A351F9FB76D00811ED3 /* Score PedictaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Score PedictaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27403A391F9FB76D00811ED3 /* Score_PedictaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score_PedictaTests.swift; sourceTree = "<group>"; };
 		27403A3B1F9FB76D00811ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27403A401F9FB76D00811ED3 /* Score PedictaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Score PedictaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27403A441F9FB76D00811ED3 /* Score_PedictaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score_PedictaUITests.swift; sourceTree = "<group>"; };
 		27403A461F9FB76D00811ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27518BA81FAB573E005B03D3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -103,22 +80,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27403A321F9FB76D00811ED3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8E536B91FCDB40AF6ECA2860 /* Pods_Score_PedictaTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		27403A3D1F9FB76D00811ED3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63DE4C692C338DBE2BCD138A /* Pods_Score_PedictaUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -138,8 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				27403A211F9FB76D00811ED3 /* Score Pedicta.app */,
-				27403A351F9FB76D00811ED3 /* Score PedictaTests.xctest */,
-				27403A401F9FB76D00811ED3 /* Score PedictaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -285,48 +244,6 @@
 			productReference = 27403A211F9FB76D00811ED3 /* Score Pedicta.app */;
 			productType = "com.apple.product-type.application";
 		};
-		27403A341F9FB76D00811ED3 /* Score PedictaTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 27403A4C1F9FB76D00811ED3 /* Build configuration list for PBXNativeTarget "Score PedictaTests" */;
-			buildPhases = (
-				50DC757CC44CAA0639D161F2 /* [CP] Check Pods Manifest.lock */,
-				27403A311F9FB76D00811ED3 /* Sources */,
-				27403A321F9FB76D00811ED3 /* Frameworks */,
-				27403A331F9FB76D00811ED3 /* Resources */,
-				0842B2490449007ED751377C /* [CP] Embed Pods Frameworks */,
-				A94D072CD3996275508D2F49 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				27403A371F9FB76D00811ED3 /* PBXTargetDependency */,
-			);
-			name = "Score PedictaTests";
-			productName = "Score PedictaTests";
-			productReference = 27403A351F9FB76D00811ED3 /* Score PedictaTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		27403A3F1F9FB76D00811ED3 /* Score PedictaUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 27403A4F1F9FB76D00811ED3 /* Build configuration list for PBXNativeTarget "Score PedictaUITests" */;
-			buildPhases = (
-				3CAC996CB9E050E7466DD7D7 /* [CP] Check Pods Manifest.lock */,
-				27403A3C1F9FB76D00811ED3 /* Sources */,
-				27403A3D1F9FB76D00811ED3 /* Frameworks */,
-				27403A3E1F9FB76D00811ED3 /* Resources */,
-				A7C2D0A68E93134418CFAEAA /* [CP] Embed Pods Frameworks */,
-				20B02D41B3EE74540A12A50E /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				27403A421F9FB76D00811ED3 /* PBXTargetDependency */,
-			);
-			name = "Score PedictaUITests";
-			productName = "Score PedictaUITests";
-			productReference = 27403A401F9FB76D00811ED3 /* Score PedictaUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -340,16 +257,6 @@
 					27403A201F9FB76D00811ED3 = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
-					};
-					27403A341F9FB76D00811ED3 = {
-						CreatedOnToolsVersion = 9.0.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 27403A201F9FB76D00811ED3;
-					};
-					27403A3F1F9FB76D00811ED3 = {
-						CreatedOnToolsVersion = 9.0.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 27403A201F9FB76D00811ED3;
 					};
 				};
 			};
@@ -367,8 +274,6 @@
 			projectRoot = "";
 			targets = (
 				27403A201F9FB76D00811ED3 /* Score Pedicta */,
-				27403A341F9FB76D00811ED3 /* Score PedictaTests */,
-				27403A3F1F9FB76D00811ED3 /* Score PedictaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -385,53 +290,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27403A331F9FB76D00811ED3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		27403A3E1F9FB76D00811ED3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0842B2490449007ED751377C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Score PedictaTests/Pods-Score PedictaTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		20B02D41B3EE74540A12A50E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Score PedictaUITests/Pods-Score PedictaUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		34DFCDDB271872AE9738484F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -445,36 +306,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Score Pedicta/Pods-Score Pedicta-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3CAC996CB9E050E7466DD7D7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		50DC757CC44CAA0639D161F2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		6F200E6595C2E5A78FF6E316 /* [CP] Copy Pods Resources */ = {
@@ -507,36 +338,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		A7C2D0A68E93134418CFAEAA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Score PedictaUITests/Pods-Score PedictaUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A94D072CD3996275508D2F49 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Score PedictaTests/Pods-Score PedictaTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -565,36 +366,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27403A311F9FB76D00811ED3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				27403A3A1F9FB76D00811ED3 /* Score_PedictaTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		27403A3C1F9FB76D00811ED3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				27403A451F9FB76D00811ED3 /* Score_PedictaUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		27403A371F9FB76D00811ED3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 27403A201F9FB76D00811ED3 /* Score Pedicta */;
-			targetProxy = 27403A361F9FB76D00811ED3 /* PBXContainerItemProxy */;
-		};
-		27403A421F9FB76D00811ED3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 27403A201F9FB76D00811ED3 /* Score Pedicta */;
-			targetProxy = 27403A411F9FB76D00811ED3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		27403A281F9FB76D00811ED3 /* Main.storyboard */ = {
@@ -645,7 +417,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Subhakanta Das (C244UVZ5AN)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -702,7 +474,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Subhakanta Das (C244UVZ5AN)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -729,8 +501,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Subhakanta Das (KKUCD4UGHT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KKUCD4UGHT;
 				INFOPLIST_FILE = "Score Pedicta/Info.plist";
@@ -749,8 +520,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Subhakanta Das (KKUCD4UGHT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KKUCD4UGHT;
 				INFOPLIST_FILE = "Score Pedicta/Info.plist";
@@ -760,76 +530,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		27403A4D1F9FB76D00811ED3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2121DB471B4BCE63796F033 /* Pods-Score PedictaTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9MZB2GEF82;
-				INFOPLIST_FILE = "Score PedictaTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Soumya-Ranjan-Sethy.Score-PedictaTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Score Pedicta.app/Score Pedicta";
-			};
-			name = Debug;
-		};
-		27403A4E1F9FB76D00811ED3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39C5F63B894A396BAB84EF17 /* Pods-Score PedictaTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9MZB2GEF82;
-				INFOPLIST_FILE = "Score PedictaTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Soumya-Ranjan-Sethy.Score-PedictaTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Score Pedicta.app/Score Pedicta";
-			};
-			name = Release;
-		};
-		27403A501F9FB76D00811ED3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19E111924B1383979DD57BF6 /* Pods-Score PedictaUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9MZB2GEF82;
-				INFOPLIST_FILE = "Score PedictaUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Soumya-Ranjan-Sethy.Score-PedictaUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Score Pedicta";
-			};
-			name = Debug;
-		};
-		27403A511F9FB76D00811ED3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65287E035C12DF6028FDE193 /* Pods-Score PedictaUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9MZB2GEF82;
-				INFOPLIST_FILE = "Score PedictaUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Soumya-Ranjan-Sethy.Score-PedictaUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Score Pedicta";
 			};
 			name = Release;
 		};
@@ -850,24 +550,6 @@
 			buildConfigurations = (
 				27403A4A1F9FB76D00811ED3 /* Debug */,
 				27403A4B1F9FB76D00811ED3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		27403A4C1F9FB76D00811ED3 /* Build configuration list for PBXNativeTarget "Score PedictaTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				27403A4D1F9FB76D00811ED3 /* Debug */,
-				27403A4E1F9FB76D00811ED3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		27403A4F1F9FB76D00811ED3 /* Build configuration list for PBXNativeTarget "Score PedictaUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				27403A501F9FB76D00811ED3 /* Debug */,
-				27403A511F9FB76D00811ED3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

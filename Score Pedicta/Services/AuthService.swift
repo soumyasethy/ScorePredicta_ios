@@ -285,7 +285,7 @@ class AuthService
            "username": AuthService.instance.userEmail
             ]
         
-        Alamofire.request(URL_PAST_GAME_LIST, method: .post, parameters: body, encoding: JSONEncoding.default, headers: headers).responseString
+        Alamofire.request(URL_UPCOMING_GAME_LIST, method: .post, parameters: body, encoding: JSONEncoding.default, headers: headers).responseString
             {(response) in
                 if response.result.error == nil{
                     guard let data = response.data else {return}
@@ -319,7 +319,7 @@ class AuthService
         let headers = [
             "content-type": "application/json",
             "timezone": localTimeZoneName,
-            "username": AuthService.instance.userEmail
+            "username": "rsehijpal@gmail.com"//AuthService.instance.userEmail
             ]
         
         Alamofire.request(URL_PAST_GAME_LIST, method: .post, parameters: body, encoding: JSONEncoding.default, headers: headers).responseString

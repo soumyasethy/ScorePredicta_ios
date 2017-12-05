@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4335C49836AA79EB389D019B23B63952'
+               BlueprintIdentifier = '524536ABA13ADD0E9AE6127D9D75995C'
                BlueprintName = 'Pods-Score Pedicta'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods-Score Pedicta.framework'>
